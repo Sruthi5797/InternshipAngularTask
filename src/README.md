@@ -1,9 +1,6 @@
 # Angular Internship Task
 
-## Components
 
-Child component - view-list
-Parent compoent - select-value
 
 ## How it is developed ?
 
@@ -22,6 +19,13 @@ This task is to create a single page application using Angular2
  - Parent to Child communication
       * A button onClick in Parent component unselects the user in child component
 
+
+## Dirs
+ * src/app
+    * Components
+        * view-list component - Child Component
+        * select-value component - Parent component
+
 ## Child to Parent communication
   - Using EventEmitter and @Output 
 ## Parent to child communication
@@ -34,12 +38,6 @@ This task is to create a single page application using Angular2
     * _npm install < package-name >_
 * start application
     * _npm start_
-
-## Dirs
- * src/app
-    * Components
-        * view-list component
-        * select-value component
 
 ## Sample Screenshot
 ![SampleImage]()
