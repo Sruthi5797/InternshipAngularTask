@@ -40,5 +40,5 @@ This task is to create a single page application using Angular2
     * _npm start_
 
 ## Sample Screenshot
-![SampleImage](/sample_image.PNG)
+![SampleImage](/sample_image.PNG width="50" height="50")
 
