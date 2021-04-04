@@ -1,29 +1,44 @@
 # Angular Internship Task
 
+
+
 ## How it is developed ?
 
-This task is to 
+This task is to create a single page application using Angular2
+ - Load the provided data.json file
+ - Use a route /list-sorted-by-name from the given 
+ - Contains two components 
+      * Parent component
+      * Child component 
+ - List is
+      * Sorted alphabetically by name, with their preferred language and price
+      * Blue fonts represent men and Red fonts represent Woman
+      * Items in the list should be selectable
+ - Child to Parent communication
+      * The currently chosen user from the list in child is displayed as **Currently selected user is:** in the Parent component
+ - Parent to Child communication
+      * A button onClick in Parent component unselects the user in child component
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Dirs
+ * src/app
+    * Components
+        * view-list component - Child Component
+        * select-value component - Parent component
 
-## Code scaffolding
+## Child to Parent communication
+  - Using EventEmitter and @Output 
+## Parent to child communication
+  - Using @ViewChild
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Usage
+* Build project
+    * _npm run build_
+* To install package
+    * _npm install < package-name >_
+* start application
+    * _npm start_
 
-## Build
+## Sample Screenshot
+![SampleImage]()
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
