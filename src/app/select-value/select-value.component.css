@@ -1,0 +1,25 @@
+/* CSS to display a header "Currently selected user:"
+Corresponding container and deselect user*/
+div {
+    width: auto;
+    background-color: #b4b9b9; ;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    display: inline;
+    position: relative;
+  }
+  button {
+    position: relative;
+    margin-left: 50px;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(83, 83, 83);
+
+  }
+

@@ -1,0 +1,26 @@
+<!--Child component displays a selectable list of freelancers with
+  - Name
+  - Programming language
+  - Price per hour
+  
+  The selection choice is multiple change  [multiple]="false" to make single selection only
+  The list is displayed in alphabetical order sorted by "Name"
+  Blue color represents - Male freelancer
+  Red color represents - Female freelancer
+
+-->
+
+
+
+<div class="container">
+      <mat-selection-list #users [multiple]="true"  (selectionChange)="onSelection($event, users.selectedOptions)">
+        <mat-list-option *ngFor="let user of userData.users | orderBy: 'name'"
+                [ngStyle]="{'color': user.sexe === 'M' ? 'blue' : 'red'}" [(value)]='user.name'>
+        <p matLine><span>Name: {{user.name}}</span></p>
+        <p matLine><span>Programming Language: {{user.prog}}</span></p>
+        <p matLine><span>Price per hour: {{user.price}} €</span></p>
+      </mat-list-option>
+    </mat-selection-list>
+</div>
+
+

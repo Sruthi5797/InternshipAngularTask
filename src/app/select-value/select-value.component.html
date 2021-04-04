@@ -1,0 +1,7 @@
+<!--Parent component displays the currently selected user and a button to deselect the user in the child component-->
+
+<div class="container">
+<h1>Currently selected user is: <b>{{currentValueChild}}</b></h1> <button (click)="selectChild.deSelect()" > ↓ UNSELECT USER</button>
+<app-view-list #selectChild [childCurrentvalue]="currentValueChild" (displayInParent)="updateFromChild($event)"></app-view-list>
+</div>
+

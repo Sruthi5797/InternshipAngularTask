@@ -1,0 +1,21 @@
+/* CSS To display the route component button and corresponding container */
+.container{
+  width: auto;
+  height: 5%;
+  background-color: rgb(68, 71, 68)
+}
+
+button {
+  position: relative;
+  margin-left: 150px;
+  font-size: 12px;
+  padding: 15px 15px;
+  border-radius: 8px;
+  background-color: white;
+
+}
+
+
+
+
+

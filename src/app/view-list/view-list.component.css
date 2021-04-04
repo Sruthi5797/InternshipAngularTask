@@ -1,0 +1,14 @@
+/* CSS To display the selectable-list and corresponding container */
+.container{
+    width: 500px;
+    position: relative;
+    margin: 10px auto;
+    text-align: left;
+    background-color: rgb(170, 167, 167);
+    
+}
+
+mat-list-option[aria-selected="true"] {
+    background: whitesmoke;
+    opacity: 85%;
+  }
