@@ -1,25 +1,5 @@
 # Angular Internship Task
 
-
-
-## How it is developed ?
-
-This task is to create a single page application using Angular2
- - Load the provided data.json file
- - Use a route /list-sorted-by-name from the given 
- - Contains two components 
-      * Parent component
-      * Child component 
- - List is
-      * Sorted alphabetically by name, with their preferred language and price
-      * Blue fonts represent men and Red fonts represent Woman
-      * Items in the list should be selectable
- - Child to Parent communication
-      * The currently chosen user from the list in child is displayed as **Currently selected user is:** in the Parent component
- - Parent to Child communication
-      * A button onClick in Parent component unselects the user in child component
-
-
 ## Dirs
  * src/app
     * Components
@@ -39,11 +19,32 @@ This task is to create a single page application using Angular2
 * start application
     * _npm start_
 
+
+
+
+## How it is developed ?
+
+This task is to create a single page application using Angular2
+ - Load the provided data.json file
+ - Use a route /list-sorted-by-name from the given 
+ - Contains two components 
+      * Parent component
+      * Child component 
+ - List is
+      * Sorted alphabetically by name, with their preferred language and price
+      * Blue fonts represent men and Red fonts represent Woman
+      * Items in the list should be selectable
+ - Child to Parent communication
+      * The currently chosen user from the list in child is displayed as **Currently selected user is:** in the Parent component
+ - Parent to Child communication
+      * A button onClick in Parent component unselects the user in child component
+
 ## Sample Screenshot
 ![SampleImage](/sample_image.PNG)
 
 ## References
-    *[list](https://material.angular.io/components/list/api#MatSelectionList)*
-    *[comp-int](https://angular.io/guide/component-interaction)*
-    *[communication](https://angular.io/guide/inputs-outputs)*
+
+    * [list](https://material.angular.io/components/list/api#MatSelectionList) *
+    * [comp-int](https://angular.io/guide/component-interaction) *
+    * [communication](https://angular.io/guide/inputs-outputs) *
 
