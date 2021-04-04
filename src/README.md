@@ -42,3 +42,8 @@ This task is to create a single page application using Angular2
 ## Sample Screenshot
 ![SampleImage](/sample_image.PNG)
 
+## References
+    - (https://material.angular.io/components/list/api#MatSelectionList)
+    - (https://angular.io/guide/component-interaction)
+    - (https://angular.io/guide/inputs-outputs)
+
