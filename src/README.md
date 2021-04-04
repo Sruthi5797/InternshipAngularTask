@@ -44,7 +44,7 @@ This task is to create a single page application using Angular2
 
 ## References
 
-    * [list](https://material.angular.io/components/list/api#MatSelectionList) *
-    * [comp-int](https://angular.io/guide/component-interaction) *
-    * [communication](https://angular.io/guide/inputs-outputs) *
+   (https://material.angular.io/components/list/api#MatSelectionList)
+   (https://angular.io/guide/component-interaction)
+   (https://angular.io/guide/inputs-outputs)
 
